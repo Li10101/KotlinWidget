@@ -26,6 +26,9 @@ class RecycleVIewLinearAdapter(private val context:Context, private val infos: M
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
         val itemHolder = holder as ItemHolder
         itemHolder.tv_title.text = infos.get(position).title
+        itemHolder.ll_item.setOnClickListener(){v->
+            itemClickListener!!.onItemClick(v,position)
+        }
     }
    inner class ItemHolder(view :View) : RecyclerView.ViewHolder(view) {
        var ll_item = view.findViewById<LinearLayout>(R.id.ll_item)
@@ -35,7 +38,7 @@ class RecycleVIewLinearAdapter(private val context:Context, private val infos: M
 
     //自定义点击事件
     private var itemClickListener :OnItemClickListener? = null
-    fun setOnItemClickListener(listener:OnItemClickListener){
+    fun setOnItemClickListener(listener:OnItemClickListener) :Unit{
         this.itemClickListener = listener
     }
     private var itemLongClickListener :OnItemLongClickListener? = null
