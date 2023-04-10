@@ -70,8 +70,8 @@ class MainActivity : AppCompatActivity() {
         spannerButton.setOnClickListener(){
             startActivity<SpinnerActivity>()
         }
-        recycleButton.setOnClickListener(){
-            startActivity<RecycleViewActivity>()
+        viewPagerButton.setOnClickListener(){
+            startActivity<ViewPagerActivity>()
         }
 
     }

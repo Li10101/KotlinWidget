@@ -22,17 +22,15 @@ class ImagePagerAdapter(private val context:Context,private val goodsInfos: Muta
     }
 
     override fun destroyItem(container: ViewGroup, position: Int, `object`: Any) {
-        super.destroyItem(container, position, `object`)
         container.removeView(views[position])
     }
 
     override fun isViewFromObject(view: View, `object`: Any): Boolean {
-        TODO("Not yet implemented")
+
         return view === `object`
     }
 
     override fun getCount(): Int {
-        TODO("Not yet implemented")
         return views.size
     }
 
@@ -40,4 +38,6 @@ class ImagePagerAdapter(private val context:Context,private val goodsInfos: Muta
         container.addView(views[position])
         return views[position]
     }
+
+    override fun getPageTitle(position: Int): CharSequence? = goodsInfos[position].name
 }
