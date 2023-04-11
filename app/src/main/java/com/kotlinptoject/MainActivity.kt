@@ -73,6 +73,9 @@ class MainActivity : AppCompatActivity() {
         viewPagerButton.setOnClickListener(){
             startActivity<ViewPagerActivity>()
         }
+        fragmentButton.setOnClickListener(){
+            startActivity<FragmentDynamicActivity>()
+        }
 
     }
 

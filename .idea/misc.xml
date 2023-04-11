@@ -12,6 +12,7 @@
         <entry key="app/src/main/res/layout/activity_alert_dialog.xml" value="0.11367753623188406" />
         <entry key="app/src/main/res/layout/activity_button.xml" value="0.14361702127659576" />
         <entry key="app/src/main/res/layout/activity_chack_box.xml" value="0.11367753623188406" />
+        <entry key="app/src/main/res/layout/activity_fragment_dynamic.xml" value="0.12760416666666666" />
         <entry key="app/src/main/res/layout/activity_linear_layout.xml" value="0.11367753623188406" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.11246200607902736" />
         <entry key="app/src/main/res/layout/activity_parcelable_second.xml" value="0.11367753623188406" />
@@ -20,6 +21,7 @@
         <entry key="app/src/main/res/layout/activity_spinner.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_view_pager.xml" value="0.14361702127659576" />
         <entry key="app/src/main/res/layout/activity_view_pager2.xml" value="0.11367753623188406" />
+        <entry key="app/src/main/res/layout/fragment_dynamic.xml" value="0.12760416666666666" />
         <entry key="app/src/main/res/layout/item_dropdown.xml" value="0.11367753623188406" />
         <entry key="app/src/main/res/layout/item_recycler_linear.xml" value="0.11367753623188406" />
         <entry key="app/src/main/res/layout/item_select.xml" value="0.11367753623188406" />
