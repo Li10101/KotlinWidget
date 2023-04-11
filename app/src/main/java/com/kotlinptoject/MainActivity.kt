@@ -76,6 +76,9 @@ class MainActivity : AppCompatActivity() {
         fragmentButton.setOnClickListener(){
             startActivity<FragmentDynamicActivity>()
         }
+        tabLayoutButton.setOnClickListener(){
+            startActivity<TabLayoutActivity>()
+        }
 
     }
 
