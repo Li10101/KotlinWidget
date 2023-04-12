@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".SQLiteReadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SQLiteWriteActivity"
+            android:exported="false" />
+        <activity
             android:name=".ShareReadActivity"
             android:exported="false" />
         <activity

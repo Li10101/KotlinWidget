@@ -23,6 +23,8 @@
         <entry key="app/src/main/res/layout/activity_recycle_view.xml" value="0.140625" />
         <entry key="app/src/main/res/layout/activity_share_preference.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_spinner.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_sqlite_read.xml" value="0.140625" />
+        <entry key="app/src/main/res/layout/activity_sqlite_write.xml" value="0.140625" />
         <entry key="app/src/main/res/layout/activity_tab_layout.xml" value="0.12760416666666666" />
         <entry key="app/src/main/res/layout/activity_view_pager.xml" value="0.14361702127659576" />
         <entry key="app/src/main/res/layout/activity_view_pager2.xml" value="0.11367753623188406" />

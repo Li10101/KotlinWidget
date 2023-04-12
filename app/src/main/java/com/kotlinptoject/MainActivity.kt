@@ -83,6 +83,13 @@ class MainActivity : AppCompatActivity() {
             startActivity<ShareReadActivity>()
         }
 
+        sql_write.setOnClickListener(){
+            startActivity<SQLiteWriteActivity>()
+        }
+        sql_read.setOnClickListener(){
+            startActivity<SQLiteReadActivity>()
+        }
+
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {

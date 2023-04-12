@@ -116,5 +116,22 @@
         app:layout_constraintRight_toRightOf="parent"
         android:text="sharePreference组件"/>
 
+    <Button
+        android:id="@+id/sql_write"
+        app:layout_constraintTop_toBottomOf="@+id/sharePreference"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="SQLite组件_write"/>
+    <Button
+        android:id="@+id/sql_read"
+        app:layout_constraintTop_toBottomOf="@+id/sql_write"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="SQLite组件_reade"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
