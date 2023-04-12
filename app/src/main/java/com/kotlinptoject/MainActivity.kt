@@ -89,6 +89,9 @@ class MainActivity : AppCompatActivity() {
         sql_read.setOnClickListener(){
             startActivity<SQLiteReadActivity>()
         }
+        file_path.setOnClickListener(){
+            startActivity<FilePathActivity>()
+        }
 
     }
 
