@@ -79,6 +79,9 @@ class MainActivity : AppCompatActivity() {
         tabLayoutButton.setOnClickListener(){
             startActivity<TabLayoutActivity>()
         }
+        sharePreference.setOnClickListener(){
+            startActivity<ShareReadActivity>()
+        }
 
     }
 

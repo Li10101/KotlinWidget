@@ -8,6 +8,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/editext_selector.xml" value="0.1095" />
+        <entry key="app/src/main/res/drawable/shape_edit_normal.xml" value="0.1095" />
         <entry key="app/src/main/res/drawable/toolbar_text_selector.xml" value="0.138" />
         <entry key="app/src/main/res/layout/activity_act_second.xml" value="0.11367753623188406" />
         <entry key="app/src/main/res/layout/activity_alert_dialog.xml" value="0.11367753623188406" />
@@ -19,6 +21,7 @@
         <entry key="app/src/main/res/layout/activity_parcelable_second.xml" value="0.11367753623188406" />
         <entry key="app/src/main/res/layout/activity_radio_button.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_recycle_view.xml" value="0.140625" />
+        <entry key="app/src/main/res/layout/activity_share_preference.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_spinner.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_tab_layout.xml" value="0.12760416666666666" />
         <entry key="app/src/main/res/layout/activity_view_pager.xml" value="0.14361702127659576" />
@@ -29,10 +32,11 @@
         <entry key="app/src/main/res/layout/item_dropdown.xml" value="0.11367753623188406" />
         <entry key="app/src/main/res/layout/item_recycler_linear.xml" value="0.11367753623188406" />
         <entry key="app/src/main/res/layout/item_select.xml" value="0.11367753623188406" />
+        <entry key="storage/src/main/res/layout/activity_main.xml" value="0.11354166666666667" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
