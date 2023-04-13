@@ -19,7 +19,10 @@
         <entry key="app/src/main/res/layout/activity_fragment_dynamic.xml" value="0.12760416666666666" />
         <entry key="app/src/main/res/layout/activity_linear_layout.xml" value="0.11367753623188406" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.11246200607902736" />
+        <entry key="app/src/main/res/layout/activity_message.xml" value="0.1766304347826087" />
         <entry key="app/src/main/res/layout/activity_parcelable_second.xml" value="0.11367753623188406" />
+        <entry key="app/src/main/res/layout/activity_progress_circle.xml" value="0.1766304347826087" />
+        <entry key="app/src/main/res/layout/activity_progress_dialog.xml" value="0.1766304347826087" />
         <entry key="app/src/main/res/layout/activity_radio_button.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_recycle_view.xml" value="0.140625" />
         <entry key="app/src/main/res/layout/activity_share_preference.xml" value="0.1" />

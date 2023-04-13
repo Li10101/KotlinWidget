@@ -8,6 +8,8 @@ import android.view.View
 import android.widget.Button
 import android.widget.Toast
 import com.data.MessageInfo
+import com.network.MessageActivity
+import com.network.ProgressDialogActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import org.jetbrains.anko.newTask
 import org.jetbrains.anko.startActivity
@@ -91,6 +93,12 @@ class MainActivity : AppCompatActivity() {
         }
         file_path.setOnClickListener(){
             startActivity<FilePathActivity>()
+        }
+        thread.setOnClickListener(){
+            startActivity<MessageActivity>()
+        }
+        progress_button.setOnClickListener(){
+            startActivity<ProgressDialogActivity>()
         }
 
     }
