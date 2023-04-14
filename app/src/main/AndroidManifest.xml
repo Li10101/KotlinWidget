@@ -17,6 +17,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name="com.network.JsonConvertActivity"
+            android:exported="false" />
+        <activity
             android:name="com.network.JsonParseActivity"
             android:exported="false" />
         <activity

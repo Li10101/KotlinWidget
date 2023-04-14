@@ -8,10 +8,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.Toast
 import com.data.MessageInfo
-import com.network.AsyncTaskActivity
-import com.network.JsonParseActivity
-import com.network.MessageActivity
-import com.network.ProgressDialogActivity
+import com.network.*
 import kotlinx.android.synthetic.main.activity_main.*
 import org.jetbrains.anko.newTask
 import org.jetbrains.anko.startActivity
@@ -107,6 +104,9 @@ class MainActivity : AppCompatActivity() {
         }
         json.setOnClickListener(){
             startActivity<JsonParseActivity>()
+        }
+        gson.setOnClickListener(){
+            startActivity<JsonConvertActivity>()
         }
 
     }
